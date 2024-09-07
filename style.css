@@ -1,0 +1,48 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tabs {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tab {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.tab.active {
+    background-color: #ccc;
+}
+
+#chart {
+    width: 100%;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.axis text {
+    font-size: 12px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
